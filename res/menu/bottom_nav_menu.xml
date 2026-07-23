@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/tab_bar_name1" />
+
+    <item
+        android:id="@+id/dailyTasksFragment"
+        android:icon="@drawable/ic_daily_tasks"
+        android:title="@string/tab_bar_name2" />
+
+    <item
+        android:id="@+id/importantDatesFragment"
+        android:icon="@drawable/ic_important_dates"
+        android:title="@string/tab_bar_name3" />
+</menu>

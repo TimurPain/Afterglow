@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <!-- ФРАГМЕНТ 1: Главная -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="ru.timurtanyrbergenov.afterglow.fragments.HomeFragment"
+        android:label="Главная" />
+
+    <!-- ФРАГМЕНТ 2: Поиск -->
+    <fragment
+        android:id="@+id/dailyTasksFragment"
+        android:name="ru.timurtanyrbergenov.afterglow.fragments.dailytasks.DailyTasksFragment"
+        android:label="Поиск" />
+
+    <!-- ФРАГМЕНТ 3: Профиль -->
+    <fragment
+        android:id="@+id/importantDatesFragment"
+        android:name="ru.timurtanyrbergenov.afterglow.fragments.importantdates.ui.ImportantDatesFragment"
+        android:label="Профиль" />
+</navigation>
